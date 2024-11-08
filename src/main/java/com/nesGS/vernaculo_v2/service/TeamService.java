@@ -1,7 +1,9 @@
 package com.nesGS.vernaculo_v2.service;
 
 
-import com.nesGS.vernaculo.model.Team;
+
+
+import com.nesGS.vernaculo_v2.model.Team;
 
 import java.util.Optional;
 

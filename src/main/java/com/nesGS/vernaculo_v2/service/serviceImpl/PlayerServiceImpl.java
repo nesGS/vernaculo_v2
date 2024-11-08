@@ -1,8 +1,11 @@
 package com.nesGS.vernaculo_v2.service.serviceImpl;
 
-import com.nesGS.vernaculo.model.Player;
-import com.nesGS.vernaculo.repository.PlayerRepository;
-import com.nesGS.vernaculo.service.PlayerService;
+
+
+
+import com.nesGS.vernaculo_v2.model.Player;
+import com.nesGS.vernaculo_v2.repository.PlayerRepository;
+import com.nesGS.vernaculo_v2.service.PlayerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

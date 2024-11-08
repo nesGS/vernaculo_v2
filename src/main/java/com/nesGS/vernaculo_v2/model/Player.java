@@ -19,16 +19,15 @@ public class Player {
     @Column(name = "nombre", nullable = false, length = 100)
     private String name;
 
-    @Column(name = "rango", nullable = false, length = 100)
+    @Column(name = "jerarquía", nullable = false, length = 100)
     private String range;
 
     @Column(name = "edad", nullable = false)
     private Date birth;
 
     @ManyToOne
-    @JoinColumn(name = "equipo_id")
-    private Team teams;
+    @JoinColumn(name = "equipo_id")     // Foreign key que hace referencia al campo id en la tabla equipo
+    private Team team;
 
-    @OneToOne(mappedBy = "player")
-    private PlayerStats playerStats;
+
 }
