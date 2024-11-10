@@ -10,14 +10,14 @@ import java.util.List;
 @Entity
 @Getter
 @Setter
-@Table(name = "equipo")
+@Table(name = "team")
 public class Team {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
-    @Column(name = "nombre", nullable = false, length = 100)
+    @Column(name = "name", nullable = false, length = 100)
     private String name;
 
     private String category;
