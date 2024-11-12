@@ -1,5 +1,6 @@
 package com.nesGS.vernaculo_v2.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 
 import lombok.Getter;
@@ -19,6 +20,7 @@ public class PlayerStats {
     private int loseRounds;
     private int advices;
 
+    @JsonIgnore // Evita que las peticiones GET den más info que las propias estadíasticas.
     @ManyToOne
     @JoinColumn(name = "player_id")
     private Player player;

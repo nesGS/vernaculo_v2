@@ -31,5 +31,10 @@ INSERT INTO player_stats (id, win_rounds, lose_rounds, advices, player_id) VALUE
 (5, 2, 1, 3, 5),
 (6, 1, 0, 4, 6);
 ---------------------------------------------------------------------------
+--Insertando matchs
+INSERT INTO matches (id, score_home, score_away, home_team_id, away_team_id) VALUES
+(1,12,8,1,2),
+(2,12,10,1,3),
+(3,8,12,2,3);
 
 

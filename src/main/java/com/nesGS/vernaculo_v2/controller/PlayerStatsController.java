@@ -18,6 +18,7 @@ public class PlayerStatsController {
     @Autowired
     private PlayerStatsService playerStatsService;
 
+    // GET /api/statistics/1?expand=player,team,club
     @GetMapping
     public Iterable<PlayerStats> getAllPlayerStats() {
         return playerStatsService.getAllPlayerStats();
