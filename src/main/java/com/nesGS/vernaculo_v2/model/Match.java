@@ -30,4 +30,7 @@ public class Match {
     @ManyToOne
     private Team awayTeamId;
 
+    @ManyToOne
+    @JoinColumn(name = "competition_id")
+    private Competition competition;
 }

@@ -1,3 +1,12 @@
+--------------------------------------------------------------------------------------------
+
+--IMPORTANTE INSERTAR EN LA DB LOS DATOS EN OTRDEN CORRECTO PARA QUE NO EXISTAN CONFLICTOS--
+--------------------------------------------------------------------------------------------
+
+--Insertando competition
+INSERT INTO competition (id, name, season, current_year) VALUES
+(1,'copa', '2024/2025', 1),
+(2,'liga', '2024/2025', 0);
 ---------------------------------------------------------------------------
 --Insertando Clubes
 INSERT INTO club (id, name, location, website) VALUES
@@ -32,9 +41,8 @@ INSERT INTO player_stats (id, win_rounds, lose_rounds, advices, player_id) VALUE
 (6, 1, 0, 4, 6);
 ---------------------------------------------------------------------------
 --Insertando matchs
-INSERT INTO matches (id, score_home, score_away, home_team_id, away_team_id) VALUES
-(1,12,8,1,2),
-(2,12,10,1,3),
-(3,8,12,2,3);
-
-
+INSERT INTO matches (id, score_home, score_away, home_team_id, away_team_id, competition_id) VALUES
+(1,12,8,1,2,1),
+(2,12,10,1,3,1),
+(3,8,12,2,3,1);
+---------------------------------------------------------------------------
