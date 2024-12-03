@@ -1,6 +1,6 @@
 package com.nesGS.vernaculo_v2.controller;
 
-import com.nesGS.vernaculo_v2.model.Club;
+import com.nesGS.vernaculo_v2.persistence.model.Club;
 import com.nesGS.vernaculo_v2.service.ClubService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

@@ -1,6 +1,6 @@
 package com.nesGS.vernaculo_v2.service;
 
-import com.nesGS.vernaculo_v2.model.PlayerStats;
+import com.nesGS.vernaculo_v2.persistence.model.PlayerStats;
 
 import java.util.Optional;
 

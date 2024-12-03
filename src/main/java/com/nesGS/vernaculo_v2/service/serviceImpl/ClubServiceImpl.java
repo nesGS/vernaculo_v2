@@ -1,12 +1,12 @@
 package com.nesGS.vernaculo_v2.service.serviceImpl;
 
-import com.nesGS.vernaculo_v2.model.Club;
+import com.nesGS.vernaculo_v2.persistence.model.Club;
 import com.nesGS.vernaculo_v2.service.ClubService;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
 
-import com.nesGS.vernaculo_v2.repository.ClubRepository;
+import com.nesGS.vernaculo_v2.persistence.repository.ClubRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 

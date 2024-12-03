@@ -1,4 +1,4 @@
-package com.nesGS.vernaculo_v2.model;
+package com.nesGS.vernaculo_v2.persistence.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;

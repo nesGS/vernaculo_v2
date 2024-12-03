@@ -1,6 +1,6 @@
 package com.nesGS.vernaculo_v2.controller;
 
-import com.nesGS.vernaculo_v2.model.Competition;
+import com.nesGS.vernaculo_v2.persistence.model.Competition;
 import com.nesGS.vernaculo_v2.service.CompetitionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

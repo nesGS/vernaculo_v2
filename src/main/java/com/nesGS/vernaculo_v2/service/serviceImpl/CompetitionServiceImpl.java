@@ -1,7 +1,7 @@
 package com.nesGS.vernaculo_v2.service.serviceImpl;
 
-import com.nesGS.vernaculo_v2.model.Competition;
-import com.nesGS.vernaculo_v2.repository.CompetitionRepository;
+import com.nesGS.vernaculo_v2.persistence.model.Competition;
+import com.nesGS.vernaculo_v2.persistence.repository.CompetitionRepository;
 import com.nesGS.vernaculo_v2.service.CompetitionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

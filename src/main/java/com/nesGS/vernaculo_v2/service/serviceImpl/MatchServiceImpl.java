@@ -1,7 +1,7 @@
 package com.nesGS.vernaculo_v2.service.serviceImpl;
 
-import com.nesGS.vernaculo_v2.model.Match;
-import com.nesGS.vernaculo_v2.repository.MatchRepository;
+import com.nesGS.vernaculo_v2.persistence.model.Match;
+import com.nesGS.vernaculo_v2.persistence.repository.MatchRepository;
 import com.nesGS.vernaculo_v2.service.MatchService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

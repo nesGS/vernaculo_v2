@@ -3,8 +3,8 @@ package com.nesGS.vernaculo_v2.service.serviceImpl;
 
 
 
-import com.nesGS.vernaculo_v2.model.Team;
-import com.nesGS.vernaculo_v2.repository.TeamRepository;
+import com.nesGS.vernaculo_v2.persistence.model.Team;
+import com.nesGS.vernaculo_v2.persistence.repository.TeamRepository;
 import com.nesGS.vernaculo_v2.service.TeamService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

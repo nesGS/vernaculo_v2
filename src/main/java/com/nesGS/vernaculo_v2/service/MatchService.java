@@ -1,6 +1,6 @@
 package com.nesGS.vernaculo_v2.service;
 
-import com.nesGS.vernaculo_v2.model.Match;
+import com.nesGS.vernaculo_v2.persistence.model.Match;
 
 import java.util.Optional;
 

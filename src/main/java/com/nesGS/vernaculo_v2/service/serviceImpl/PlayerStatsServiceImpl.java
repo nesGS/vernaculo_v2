@@ -1,13 +1,13 @@
 package com.nesGS.vernaculo_v2.service.serviceImpl;
 
 
-import com.nesGS.vernaculo_v2.model.PlayerStats;
+import com.nesGS.vernaculo_v2.persistence.model.PlayerStats;
 import com.nesGS.vernaculo_v2.service.PlayerStatsService;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
 
-import com.nesGS.vernaculo_v2.repository.PlayerStatsRepository;
+import com.nesGS.vernaculo_v2.persistence.repository.PlayerStatsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 

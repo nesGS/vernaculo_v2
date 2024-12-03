@@ -1,6 +1,6 @@
 package com.nesGS.vernaculo_v2.service;
 
-import com.nesGS.vernaculo_v2.model.Competition;
+import com.nesGS.vernaculo_v2.persistence.model.Competition;
 
 import java.util.Optional;
 

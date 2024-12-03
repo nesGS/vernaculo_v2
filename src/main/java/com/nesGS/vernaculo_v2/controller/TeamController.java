@@ -3,7 +3,7 @@ package com.nesGS.vernaculo_v2.controller;
 
 
 
-import com.nesGS.vernaculo_v2.model.Team;
+import com.nesGS.vernaculo_v2.persistence.model.Team;
 import com.nesGS.vernaculo_v2.service.TeamService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

@@ -1,6 +1,6 @@
 package com.nesGS.vernaculo_v2.service;
 
-import com.nesGS.vernaculo_v2.model.Club;
+import com.nesGS.vernaculo_v2.persistence.model.Club;
 
 import java.util.Optional;
 
