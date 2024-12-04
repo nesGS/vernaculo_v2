@@ -12,8 +12,12 @@
     <input type="text" id="name" name="name" required>
     <br><br>
 
-    <label for="country">País:</label>
-    <input type="text" id="country" name="country" required>
+    <label for="location">Ciudad:</label>
+    <input type="text" id="location" name="location" required>
+    <br><br>
+
+    <label for="website">Web:</label>
+    <input type="text" id="website" name="website" required>
     <br><br>
 
     <button type="submit">Registrar Club</button>
@@ -30,12 +34,14 @@
 
         // Obtén los datos del formulario.
         const name = document.getElementById('name').value;
-        const country = document.getElementById('country').value;
+        const location = document.getElementById('location').value;
+        const website = document.getElementById('website').value;
 
         // Prepara los datos para la solicitud POST.
         const clubData = {
             name: name,
-            country: country
+            location: location,
+            website: website
         };
 
         try {

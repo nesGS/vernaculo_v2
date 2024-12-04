@@ -1,10 +1,14 @@
 package com.nesGS.vernaculo_v2.persistence.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
+import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 @Entity
@@ -27,10 +31,17 @@ public class Team {
     @OneToMany(mappedBy = "team", cascade = CascadeType.ALL)
     private List<Player> players;
 
+    @JsonBackReference
     @ManyToOne
     @JoinColumn (name = "club_id")     // Foreign key que hace referencia al campo id en la tabla club
     private Club club;
 
+
+    @CreationTimestamp
+    @Column(updatable = false)
+    private LocalDateTime createdAt;
+    @UpdateTimestamp
+    private LocalDateTime updatedAt;
 
     // mappedBy = "teams" indica que la relación es bidireccional y está mapeada por el campo team en la clase Player
 

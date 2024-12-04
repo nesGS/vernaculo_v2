@@ -8,10 +8,10 @@ INSERT INTO competition (id, name, season, current_year) VALUES
 (2,'liga', '2024/2025', 0);
 ---------------------------------------------------------------------------
 --Insertando Clubes
-INSERT INTO club (id, name, location, website) VALUES
-(1, 'Tegueste', 'Tegueste', 'www.teguestelucha.com'),
-(2, 'Chimbesque', 'San Miguel de Abona', 'www.chimbesquelucha.com'),
-(3, 'Llano Del Moro', 'Santa Cruz', 'www.llanodelmorolucha.com');
+INSERT INTO club (name, location, website) VALUES
+('Tegueste', 'Tegueste', 'www.teguestelucha.com'),
+('Chimbesque', 'San Miguel de Abona', 'www.chimbesquelucha.com'),
+('Llano Del Moro', 'Santa Cruz', 'www.llanodelmorolucha.com');
 ---------------------------------------------------------------------------
 -- Insertando teams
 INSERT INTO team (id, name, category, coach, club_id) VALUES
